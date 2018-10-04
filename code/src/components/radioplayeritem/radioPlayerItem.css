@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+}
+
+.radioPlayerContainer{
+  display: flex;
+  border: black 2px solid;
+  margin-bottom: 40px;
+  min-width: 600px;
+}
+
+.logo{
+  height: 200px;
+}
+
+p {
+  font: helvetica;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: #fff;
+  position: absolute;
+
+}
+
+.nameAndControls {
+  display: flex;
+  align-items: column;
+  padding-left: 10%;
+}
+
+.audioControls {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  position: contain;
+  /* margin-left: -40px; */
+}
