@@ -20,6 +20,8 @@ export default class RadioPlayers extends React.Component {
   }
 
   render() {
+
+
     if (this.state.allRadioPlayers.length > 0) {
       return (
         <div className= "radioPlayersItem">
