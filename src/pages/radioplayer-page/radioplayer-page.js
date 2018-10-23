@@ -2,7 +2,7 @@ import React from "react"
 import RadioPlayers from "../../containers/radio-players/radio-players.js"
 import "./radioplayer-page.css"
 
-lass RadioPlayerPage extends React.Component {
+class RadioPlayerPage extends React.Component {
 
   render() {
     return (
