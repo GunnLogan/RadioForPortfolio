@@ -1,6 +1,6 @@
 import React from "react"
 import RadioPlayers from "../../containers/radio-players/radio-players.js"
-import  "./radioplayer-page.css"
+import "./radioplayer-page.css"
 
 class RadioPlayerPage extends React.Component {
 
@@ -8,7 +8,7 @@ class RadioPlayerPage extends React.Component {
     return (
       <div className="RadioPlayerFunction">
         <div>
-          <RadioPlayers/>
+          <RadioPlayers />
         </div>
       </div>
     )

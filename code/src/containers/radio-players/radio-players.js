@@ -1,7 +1,6 @@
 import React from "react"
 import RadioPlayerItem from "../../components/radioplayeritem/radioPlayerItem.js"
-import  "./radio-players.css"
-
+import "./radio-players.css"
 
 export default class RadioPlayers extends React.Component {
 
@@ -20,24 +19,22 @@ export default class RadioPlayers extends React.Component {
   }
 
   render() {
-
-
     if (this.state.allRadioPlayers.length > 0) {
       return (
-        <div className= "radioPlayersItem">
+        <div className="radioPlayersItem">
           {this.state.allRadioPlayers.map((item) => {
             return (
-              <RadioPlayerItem name={item.name}
-              image={item.image}
-              imagetemplate={item.imagetemplate}
-              liveaudio={item.liveaudio.url}
-              color={item.color}
-              />
+              <RadioPlayerItem
+                name={item.name}
+                image={item.image}
+                imagetemplate={item.imagetemplate}
+                liveaudio={item.liveaudio.url}
+                color={item.color} />
             )
           })}
         </div>
-        )
-      } else {
+      )
+    } else {
       return <div className="notLoading">Radio gaga..</div>
     }
   }
