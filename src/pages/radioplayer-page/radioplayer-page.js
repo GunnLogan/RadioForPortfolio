@@ -7,7 +7,7 @@ class RadioPlayerPage extends React.Component {
   render() {
     return (
       <div className="RadioPlayerFunction">
-        <header img src=""></header>
+        <div img src="../../Sverigesradio_srgb.png">hellloh</div>
         <div>
           <RadioPlayers />
         </div>
