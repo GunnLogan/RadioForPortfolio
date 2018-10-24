@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://gunnlogan.github.io/RadioForPortfolio",
   "dependencies": {
-    "eslint-config-technigo": "^1.4.0",
+    "eslint-config-technigo": "^1.6.2",
     "gh-pages": "^2.0.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
